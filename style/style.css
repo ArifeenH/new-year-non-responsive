@@ -55,3 +55,37 @@ header{
     margin: 0 auto;
     text-align: center;
 }
+/* DEALS STYLES */
+.deals{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.off{
+    font-size: 8.8rem;
+    font-weight: 700;
+    color: red;
+}
+.small-title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: red;
+}
+.large-title{
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.deals-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.deals-content img {
+    padding-top: 3rem;
+}
