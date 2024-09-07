@@ -31,6 +31,16 @@ h4{
     font-size: 3.2rem;
     color: white;
 }
+.btn-primary{ 
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 2.5rem ;
+
+}
 /* Header Elements */
 
 header{
@@ -43,7 +53,6 @@ header{
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
-
 }
 .hero-content{
     display: flex;
@@ -58,14 +67,12 @@ header{
 /* DEALS STYLES */
 .deals{
     width: 80%;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* background: black; */
 }
 .off{
     font-size: 8.8rem;
@@ -84,8 +91,37 @@ header{
 .deals-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 2rem;
 }
 .deals-content img {
     padding-top: 3rem;
+    width: 70rem;
+}
+/* WELCOME CARD */
+.welcome-card{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.welcome-card img{
+    width: 31rem;
+    padding: 5rem 0rem;
+}
+.welcome-texts{
+    width: 68.1rem;
+}
+.welcome-texts p{
+    font-size: 1.8rem;
+    color: #ffffffba;
+    line-height: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
