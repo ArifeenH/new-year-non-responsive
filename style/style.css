@@ -1,0 +1,57 @@
+/* Universal Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+h1,h2, h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+h1{
+    font-size: 7.2rem;
+    color: white;
+}
+h2{
+    font-size: 6.4rem;
+    color: white;
+}
+h3{
+    font-size: 4.8rem;
+}
+h4{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 3.2rem;
+    color: white;
+}
+/* Header Elements */
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7rem;
+}
+.header-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('banner-image.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
